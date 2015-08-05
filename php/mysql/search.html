@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Book-O-Rama Catalog Search</title>
+</head>
+<body>
+	<h1>Book-O-orama Catalog Search</h1>
+	<form action="results.php" method="post">
+		Choose Search Type:<br/>
+		<select name="searchtype">
+			<option value="author">author</option>
+			<option value="title">title</option>
+			<option value="isbn">isbn</option>
+		</select>
+		<br />
+		Enter Searh Term:<br />
+		<input type="text" name="searchterm" size="40" />
+		<br />
+		<input type="submit" name="submit" value="Search" />
+	</form>
+</body>
+</html>
